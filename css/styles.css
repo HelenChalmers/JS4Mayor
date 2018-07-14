@@ -1,0 +1,66 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.background {
+    height: 100%;
+    width: 100%;
+    background: url('../images/nashvilleSkyline.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*.jsMayor_title {
+    background-color: #08f7f7;
+}*/
+
+h1 {
+    font-family: 'Cedarville Cursive';
+    color: black;
+    text-align: center;
+}
+
+
+nav {
+    /*background-color: lightcyan;*/
+    font-family: 'Cedarville Cursive';
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+nav a {
+    color: black;
+}
+
+nav a:hover {
+    color: lightskyblue;
+}
+
+
+
+.flex-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    /*background-color: lightcyan;*/
+}
+
+main {
+    text-align: center;
+    /*background-color: #08f7f7;*/
+    color: lightyellow;
+}
+
+footer {
+    text-align: center;
+    /*background-color: lightcyan;*/
+}
